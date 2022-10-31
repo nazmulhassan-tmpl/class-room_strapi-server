@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "class_rooms",
+  "info": {
+    "singularName": "class-room",
+    "pluralName": "class-rooms",
+    "displayName": "class-room",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "semester": {
+      "type": "string",
+      "required": false
+    },
+    "created": {
+      "required": false,
+      "type": "date"
+    },
+    "topic": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
